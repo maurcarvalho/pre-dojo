@@ -46,12 +46,12 @@ public class PlayerBOImpl implements PlayerBO {
 	@Override
 	public Date getPlayerKillTime(String[] splitedLogLine) {
 		Date date = null;
-		SimpleDateFormat spf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		SimpleDateFormat spf = new SimpleDateFormat(DATE_PATTERN);
 
 		try {
-			StringBuilder dateAndHour = new StringBuilder(splitedLogLine[0]);
+			StringBuilder dateAndHour = new StringBuilder(splitedLogLine[NUM_ZERO]);
 			dateAndHour.append(SPACE);
-			dateAndHour.append(splitedLogLine[1]);
+			dateAndHour.append(splitedLogLine[NUM_UM]);
 			date = spf.parse(dateAndHour.toString());
 		} catch (ParseException e) {
 			e.printStackTrace();

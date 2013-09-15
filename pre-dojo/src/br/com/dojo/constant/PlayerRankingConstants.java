@@ -21,6 +21,7 @@ public final class PlayerRankingConstants {
 	//Constantes para conversao e manipulacao de hora/data
 	public static final Long T_ZERO = new Long(NUM_ZERO);
 	public static final Long T_UM = new Long(NUM_UM);
+	public static final String DATE_PATTERN = "dd/MM/yyyy HH:mm:ss";
 	
 	//Constantes utilizadas na view
 	public static final String LINE_SEPARATOR = "------------------------------------------------------------------------------------------------------------------------\n";
