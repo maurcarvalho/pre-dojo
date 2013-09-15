@@ -11,6 +11,6 @@ Está sendo validado a ordem de execução dos eventos no arquivo LOG. Exemplo:
 23/04/2013 15:20:23 - Ruy killed Roman using AK47 --> ERRO
 23/04/2013 15:22:30 - Pablo killed Roman using AK47
 
-Em caso de empate em selecionar o player que mais matou, será avaliado o número de mortes como critério de desempate.
+Em caso de empate ao selecionar o player que mais matou, será avaliado o número de mortes como critério de desempate.
 
 o arquivo log.txt está no path --> /pre-dojo/src/br/com/dojo/resources/log.txt
